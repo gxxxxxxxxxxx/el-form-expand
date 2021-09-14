@@ -1,14 +1,16 @@
 {
-  "name": "el-form-pro",
+  "name": "el-form-expand",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "distel-form-expand.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name el-form-expand ./packages/el-form-expand/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "element-ui": "^2.15.6",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -38,5 +40,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "author": {
+    "name": "ganxiaoxing",
+    "github": "https://github.com/ganxiaoxing/el-form-expand"
+  }
 }
