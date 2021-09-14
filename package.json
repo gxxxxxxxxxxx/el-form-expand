@@ -1,8 +1,8 @@
 {
   "name": "el-form-expand",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
-  "main": "distel-form-expand.umd.min.js",
+  "main": "dist/el-form-expand.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "lib": "vue-cli-service build --target lib --name el-form-expand ./packages/el-form-expand/index.js",
