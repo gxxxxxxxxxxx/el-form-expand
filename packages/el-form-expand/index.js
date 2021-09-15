@@ -31,7 +31,6 @@ export default {
       }
     },
     handleChangeColumns() {
-      console.log(111)
       if (document.body.offsetWidth < 1220) {
         this.column = 2
         this.labelWidth = '50%'
