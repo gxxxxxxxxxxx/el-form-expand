@@ -1,6 +1,6 @@
 {
   "name": "el-form-expand",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "private": false,
   "main": "lib/index.js",
   "typings": "types/index.d.ts",
@@ -9,12 +9,10 @@
     "lib": "vue-cli-service build --target lib --name el-form-expand ./packages/el-form-expand/index.js",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
+  "devDependencies": {
     "core-js": "^3.6.5",
     "element-ui": "^2.15.6",
-    "vue": "^2.6.11"
-  },
-  "devDependencies": {
+    "vue": "^2.6.11",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
@@ -45,5 +43,8 @@
   "author": {
     "name": "gxx",
     "github": "https://github.com/gxxxxxxxxxxx/el-form-expand"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.1.5"
   }
 }
